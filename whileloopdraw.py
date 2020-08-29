@@ -1,3 +1,4 @@
+# This is the first one: left side triangle
 line = '*'
 max_length = 5
 
@@ -6,7 +7,7 @@ while len(line) <= max_length:
     line += "*"
 print()
 
-
+# This is the second one: 
 line = '*'
 max_length = 5
 
@@ -19,7 +20,7 @@ while len(line) > 0:
     line = line[:-1]
 print()
 
-
+# This is the third one:
 line = '*'
 max_length = 5
 
@@ -33,7 +34,7 @@ while len(line) > 0:
     line = line[:-1]
 print()
 
-
+# This is the last one: Diamond
 line = '*'
 max_length = 5
 
