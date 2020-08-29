@@ -43,7 +43,6 @@ while len(line) <= max_length:
         break
     print(" "*(max_length-len(line)) + "* "*len(line))
     line += "*"
-print(len(line))
 while len(line) > 0:
     print(" "*(max_length-len(line)) + "* "*len(line))
     line = line[:-1]
